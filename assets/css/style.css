@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+.hero{
+    background-image: url("../images/hero-bg.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
 body {
     /* more on this crazy alphanumerical value in a minute! */
     color: #39a6b2;
@@ -41,6 +48,10 @@ header nav{
 header{
     padding: 20px 35px;
     background-color: #39a6b2;
+}
+
+section{
+    padding: 60px;
 }
 
 footer h2{
