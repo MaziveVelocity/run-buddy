@@ -1,22 +1,71 @@
+/*------- whole page-------*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/*------- hero section-------*/
 .hero{
     background-image: url("../images/hero-bg.jpg");
     height: 600px;
     background-size: cover;
     background-position: center;
+    position: relative;
+    
+}
+/*------- form section-------*/
+.hero-form {
+    border: 3px solid #024e76;
+    background-color: #fce138;
+    padding: 20px;
+    width: 500px;
+    color: #024e76;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+  }
+
+.hero-form label{
+    margin:  0 5px;
 }
 
+.hero-form h3 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.hero-form p {
+  margin: 5px 0 15px 0;
+}
+
+.hero-form button {
+    color: #fce138;
+    background-color: #024e76;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+/*------- input section-------*/
+.form-input {
+  border: 1px solid #024e76;
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  color: #024e76;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/*------- body-------*/
 body {
     /* more on this crazy alphanumerical value in a minute! */
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
   }
 
+/*------- header section-------*/
 header nav ul li a{
     margin: 0 30px;
     font-weight: lighter;
@@ -50,10 +99,12 @@ header{
     background-color: #39a6b2;
 }
 
+/*------- all sections-------*/
 section{
     padding: 60px;
 }
 
+/*------- footer section-------*/
 footer h2{
     display: inline;
     color: #024e76;
