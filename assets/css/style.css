@@ -58,19 +58,17 @@ header{
 
 /*----Hero main-intro section-----*/
 .main-intro{
-    margin: 0 auto;
-    width: 50%;
-    float: left;
+    margin: 3.5%;
+    width: 35%;
     text-align: right;
+    color: #fff;
+    font-size: 18px;
 }
 
 .main-intro h3{
     color: #fce138;
-    font-size: 34px;
+    font-size: 55px;
     font-style: italic;
-    font-weight: bold;
-    line-height: 1.4;
-    padding: 15px 0;
 }
 
 .main-intro p{
@@ -81,6 +79,9 @@ header{
 /*------- hero section-------*/
 .hero{
     background-image: url("../images/hero-bg.jpg");
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     height: 600px;
     background-size: cover;
     background-position: center;
@@ -92,7 +93,8 @@ header{
     border: 3px solid #024e76;
     background-color: #fce138;
     padding: 20px;
-    width: 500px;
+    margin: 3.5%;
+    width: 40%;
     color: #024e76;
     position: absolute;
     bottom: 120px;
@@ -256,14 +258,12 @@ header{
 
 /*-------footer section-------*/
 footer h2{
-    display: inline;
     color: #024e76;
     font-size: 30px;
     margin: 0;
 }
 
 footer div{
-    float: right;
     line-height: 1.5;
     text-align: right;
 }
@@ -273,6 +273,9 @@ footer a{
 }
 
 footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     background: #fce138;
     width: 100%;
     padding: 40px 35px;
