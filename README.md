@@ -1,3 +1,14 @@
 # Run Buddy
 
-this is a test text for my readme file.
+## Purpose
+A website that offers fitness training services.
+
+## Built With
+* HTML
+* CSS
+
+## Website
+https://mazivevelocity.github.io/run-buddy/
+
+## Contribution
+Made with ❤️ by [your name]
